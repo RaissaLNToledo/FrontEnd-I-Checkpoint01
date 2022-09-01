@@ -7,7 +7,7 @@
 
 /*Fonte do texto: font-family: 'Neuton', serif;
 Fonte do Título: font-family: 'Mr De Haviland', cursive;
-Fonte do Logo:font-family: 'Harry Potter', sans-serif;*/ 
+Fonte do Logo: font-family: 'Harry Potter', sans-serif;*/ 
 
 * {
     margin: 0;
@@ -59,17 +59,26 @@ nav {
     color: #040c1c ;
     margin-left: 10px;
     margin-right: 10px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 25px;
 }
 
 .menu a {
     text-decoration: none;
     color: #040c1c;
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 32px;
 }
 
 
 /*Estilizações Main*/
+.titulo-secao {
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 50px;
+    color: #f1e7ad;
+    -webkit-text-stroke: #040c1c 1px;
+}
+
 .curiosidade {
     background-color: #f1e7ad ;
     color: #9c5434;
