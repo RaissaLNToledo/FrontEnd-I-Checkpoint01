@@ -1,0 +1,106 @@
+/* Paleta de cores do fundo:
+.color1 { #9c5434 };
+.color2 { #f1e7ad };
+.color3 { #040c1c };
+.color4 { #5c759c };
+.color5 { #9ba9bd };*/
+
+/*Fonte do texto: font-family: 'Neuton', serif;
+Fonte do Título: font-family: 'Mr De Haviland', cursive;
+Fonte do Logo:font-family: 'Harry Potter', sans-serif;*/ 
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Neuton', serif;
+}
+/* Estilizações Body*/
+body {
+    background-color: #040c1c;
+    background-image: url(../img/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*Estilizações do Header*/
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100px;
+    background-color: #040c1c;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: #f1e7ad;
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav {
+    padding-top: 20px;
+}
+
+.navegadores {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    background-color: #5c759c;
+    color: #040c1c ;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #040c1c;
+}
+
+
+/*Estilizações Main*/
+.curiosidade {
+    background-color: #f1e7ad ;
+    color: #9c5434;
+    width: 400px;
+    height: 600px;
+    border-radius: 25px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.curiosidade img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.curiosidade h2 {
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 50px;
+}
+
+.pai-curiosidades {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Estilizações Footer*/
+footer {
+    background-color: #040c1c;
+}
+.integrantes {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
