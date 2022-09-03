@@ -77,6 +77,7 @@ nav {
     font-size: 50px;
     color: #f1e7ad;
     -webkit-text-stroke: #040c1c 1px;
+    text-align: center;
 }
 
 .curiosidade {
@@ -102,6 +103,14 @@ nav {
 .pai-curiosidades {
     display: flex;
     justify-content: space-around;
+}
+
+#video {
+ 
+    width: 900px;
+    margin: auto;
+    padding: 10px;
+    
 }
 
 /*Estilizações Footer*/
