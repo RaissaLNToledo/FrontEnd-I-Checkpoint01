@@ -5,14 +5,15 @@
 .color4 { #5c759c };
 .color5 { #9ba9bd };*/
 
-/*Fonte do texto: font-family: 'Neuton', serif;
+/*Fonte do texto: font-family: 'Poppins', sans-serif;
 Fonte do Título: font-family: 'Mr De Haviland', cursive;
 Fonte do Logo: font-family: 'Harry Potter', sans-serif;*/ 
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Neuton', serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
 }
 /* Estilizações Body*/
 body {
@@ -72,6 +73,25 @@ nav {
 
 
 /*Estilizações Main*/
+
+section {
+    margin: 20px;
+    padding: 20px;
+}
+
+#Home div {
+    background-color: #040c1c;
+    padding: 20px;
+    border-radius: 10px;   
+}
+
+#Home div p {
+    font-size: 20px;
+    color: #f1e7ad;
+    text-align: justify;
+    text-indent: 2rem;
+}
+
 .titulo-secao {
     font-family: 'Harry Potter', sans-serif;
     font-size: 50px;
@@ -80,11 +100,16 @@ nav {
     text-align: center;
 }
 
+.pai-curiosidades { /*Div que abrange as 3 caixinhas com curiosidades*/
+    display: flex;
+    justify-content: space-around;
+}
+
 .curiosidade {
     background-color: #f1e7ad ;
     color: #9c5434;
     width: 400px;
-    height: 600px;
+    height: 800px;
     border-radius: 25px;
     margin: 10px;
     overflow: hidden;
@@ -97,20 +122,41 @@ nav {
 
 .curiosidade h2 {
     font-family: 'Mr De Haviland', cursive;
-    font-size: 50px;
+    font-size: 70px;
+    width: 400px;
+    text-align: center;
 }
 
-.pai-curiosidades {
-    display: flex;
-    justify-content: space-around;
+.curiosidade p {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+.curiosidade ul {
+    padding-left: 40px;
+    padding-right: 10px;
+    list-style-type: square;
+}
+
+#destaque-1 {
+    background-color: #9c5434;
+    color:#f1e7ad;
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+}
+
+#destaque-1 a {
+    text-decoration: none;
+    color: #f1e7ad;
+    font-weight: 800;
 }
 
 #video {
- 
     width: 900px;
     margin: auto;
     padding: 10px;
-    
 }
 
 /*Estilizações Footer*/
