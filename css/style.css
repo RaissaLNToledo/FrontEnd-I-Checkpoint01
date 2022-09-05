@@ -86,15 +86,20 @@ section {
 }
 
 #Home div p {
-    font-size: 20px;
+    font-size: 1rem;
     color: #f1e7ad;
     text-align: justify;
     text-indent: 2rem;
 }
 
+#Home div p b {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
 .titulo-secao {
     font-family: 'Harry Potter', sans-serif;
-    font-size: 50px;
+    font-size: 3.125rem;
     color: #f1e7ad;
     -webkit-text-stroke: #040c1c 1px;
     text-align: center;
@@ -108,7 +113,7 @@ section {
 .curiosidade {
     background-color: #f1e7ad ;
     color: #9c5434;
-    width: 400px;
+    width: 380px;
     height: 800px;
     border-radius: 25px;
     margin: 10px;
@@ -122,8 +127,8 @@ section {
 
 .curiosidade h2 {
     font-family: 'Mr De Haviland', cursive;
-    font-size: 70px;
-    width: 400px;
+    font-size: 65px;
+    width: 380px;
     text-align: center;
 }
 
