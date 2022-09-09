@@ -177,7 +177,10 @@ footer {
     display: flex;
     justify-content: space-around;
     text-decoration: none;
+    color: #f1e7ad;
 }
+
+/*Responsividade*/
 @media only screen and (max-width: 1280px) {
 main #video{
     width: 1200px;
