@@ -40,10 +40,15 @@ header {
 }
 
 header h1 {
-    color: #f1e7ad;
-    font-family: 'Harry Potter', sans-serif;
-    font-size: 50px;
-    padding-top: 20px;
+    display: none;
+}
+
+.brasao {
+    width: 150px;
+}
+
+.nome {
+    height: 85px;
 }
 
 .logo {
@@ -72,8 +77,9 @@ nav {
 .menu a {
     text-decoration: none;
     color: #040c1c;
-    font-family: 'Harry Potter', sans-serif;
-    font-size: 32px;
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 50px;
+    font-weight: 600;
 }
 
 
@@ -103,11 +109,12 @@ section {
 }
 
 .titulo-secao {
-    font-family: 'Harry Potter', sans-serif;
-    font-size: 50px;
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 80px;
     color: #f1e7ad;
-    -webkit-text-stroke: #040c1c 1px;
+    /*-webkit-text-stroke: #040c1c 1px;*/
     text-align: center;
+    background-color: rgba(4, 12, 28, 0.7);
 }
 
 .pai-curiosidades { /*Div que abrange as 3 caixinhas com curiosidades*/
@@ -188,8 +195,8 @@ footer h1 {
 }
 
 .pessoas h3 {
-    font-family: 'Harry Potter', sans-serif;
-    font-size: 30px;
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 50px;
     text-align: center;
     color: #5c759c;
 }
