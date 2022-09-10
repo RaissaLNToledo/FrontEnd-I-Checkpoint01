@@ -104,7 +104,7 @@ section {
 
 .titulo-secao {
     font-family: 'Harry Potter', sans-serif;
-    font-size: 3.125rem;
+    font-size: 50px;
     color: #f1e7ad;
     -webkit-text-stroke: #040c1c 1px;
     text-align: center;
@@ -167,11 +167,35 @@ section {
 footer {
     background-color: #040c1c;
 }
+
+footer h1 {
+     color:#9ba9bd;
+     font-family: 'Mr De Haviland', cursive;
+     font-size: 30px;
+     text-align: end;
+     padding-bottom: 3px;
+     padding-right: 8px;
+}
 .integrantes {
     display: flex;
     justify-content: space-around;
     text-decoration: none;
-    color: #f1e7ad;
+}
+
+.pessoas {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.pessoas h3 {
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #5c759c;
+}
+
+.pessoas img {
+    width: 50px;
 }
 
 /*Responsividade*/
@@ -216,7 +240,7 @@ footer {
     }
 
     .titulo-secao{
-        font-size: 0.7rem;
+        font-size: 3.125rem;
     }
     
     main #video {
@@ -264,6 +288,7 @@ footer {
     }
     
 
+
     main .pai-curiosidades {
         flex-direction: column;
     }
@@ -284,4 +309,15 @@ footer {
         margin: auto;
         margin: 10px;
     }
+
+    .integrantes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pessoas {
+        padding: 10px;
+    }
+    
 }
